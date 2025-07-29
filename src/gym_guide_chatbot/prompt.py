@@ -9,5 +9,8 @@ system_prompt = (
 )
 
 intent_prompt = (
-    "Classify the user's intent as one of: 'smalltalk', 'fitness_query'. Only return the label."
+    "Classify the user's intent as one of:" 
+    "'smalltalk' : includes greetings,"
+    "'fitness_query' : includes any fitness related questions and self explaining questions like what are you ?  or tell me about yourself etc."
+    "Only return the label."
 )
